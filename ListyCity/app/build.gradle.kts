@@ -1,16 +1,17 @@
 plugins {
     alias(libs.plugins.android.application)
 
+    id("com.google.gms.google-services")
 }
 
 android {
     namespace = "com.example.lab5_starter"
-    compileSdk = 35
+    compileSdk = 36
 
     defaultConfig {
         applicationId = "com.example.lab5_starter"
         minSdk = 24
-        targetSdk = 35
+        targetSdk = 34
         versionCode = 1
         versionName = "1.0"
 
@@ -34,6 +35,8 @@ android {
 
 dependencies {
 
+    implementation(platform("com.google.firebase:firebase-bom:34.3.0"))
+    implementation("com.google.firebase:firebase-firestore")
     implementation(libs.appcompat)
     implementation(libs.material)
     implementation(libs.activity)

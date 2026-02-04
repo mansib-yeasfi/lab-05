@@ -2,8 +2,8 @@
 
 ## Student Details
 
-- **Full Name:** `<Enter name>`
-- **CCID:** `<Enter ccid>`
+- **Full Name:** `<Mansib Chowdhury>`
+- **CCID:** `<1890735>`
 
 ## References and Resources
 

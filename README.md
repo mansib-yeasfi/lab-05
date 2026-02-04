@@ -3,7 +3,7 @@
 ## Student Details
 
 - **Full Name:** `<Mansib Chowdhury>`
-- **CCID:** `<1890735>`
+- **CCID:** `<mansibye>`
 
 ## References and Resources
 
